@@ -1,0 +1,10 @@
+lam=3;mu=60/19;
+p=lam/mu;
+t=15/60;
+p0=1-p;
+p4=p^4*(1-p);
+pm1=1-p0;
+ls=p/(1-p);
+lq=p*ls;
+wq=lq/lam;
+pwsm15=exp(-(mu-lam)*t);
